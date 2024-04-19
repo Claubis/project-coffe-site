@@ -1,0 +1,110 @@
+
+/* Importação da font que será utilizada no site todo*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* Padronização da fonte,a tamanho, cores, background*/
+:root {
+    /* Fontes - Familia */
+    --font-family-padrao: Manrope;
+
+    /* Fontes - Tamanhos*/
+    --font-size-titulo-pagina: 18px;
+    --font-size-titulos-boxs:16px;
+    --font-size-textos: 14px;
+    --font-size-textos-pequenos: 12px;
+    --font-size-textos-sem-foco: 10px;
+
+    /* Fontes - Cores */
+    --color-font-um: #3c3c3c;
+    --color-font-dois:#515151;
+    --color-font-tres: #666f88;
+    --color-font-quatro:#788199;
+    --color-font-cinco:#8990a2;
+    --color-font-seis:#a3a8b7;
+    --color-font-sete:#b5bac9;
+
+    /* Configuração para as cores das sessões */
+    --backcolor-basico: #f8f6f6; 
+    --backcolor-primeira-opcao: #EEECDF; 
+    --backcolor-segunda-opcao: #E5E3D7;
+    --backcolor-terceira-opcao: #D9D6CD;
+    --backcolor-quarta-opcao: #9B9386; 
+    --backcolor-quinta-opcao: #ac8c6e; 
+    --backcolor-sexta-opcao: #86674A; 
+    --backcolor-setima-opcao: #463F22;
+    --backcolor-oitava-opcao: #67604E;
+    --backcolor-nona-opcao: #747055;
+}
+
+/* Ajuste geral da página */
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: Manrope;
+}
+
+html {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+    overflow-x: hidden; /* Evita a rolagem horizontal */
+}
+
+.container-marketing-segunda-pagina {
+    background-color: var(--backcolor-nona-opcao);
+    height: 90rem;
+    display: flex;
+    justify-content: center;
+    /*border: 5px solid blue;*/
+}
+
+/* Título da página */
+
+.titulo-marketing-segunda-pagina {
+    color: #463F22;
+    text-transform: uppercase;
+}
+
+/* Primeiro box - Onde constam as frases de Boas Vindas*/
+.container-info-primeiro-box-marketing-segunda-pagina {
+    /*border: 5px solid red;*/
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 5rem;
+    width: 60%;
+    height: 50vh;
+}
+
+/* Título sobre nós */
+
+.titulo-marketing-segunda-pagina {
+    color: #463F22;
+}
+
+/* Segunda box - Onde consta a imagem */
+.imagem-produto-principal-marketing-segunda-pagina {
+    /*border: 5px solid green;*/
+    width: 70%;
+    height: 70vh;
+}
+
+.subtitulo-marketing-segunda-pagina {
+    font-size: 28px;
+    color: #E5E3D7;
+    text-transform: uppercase;
+}
+
+.frase-marketing-segunda-pagina {
+    font-size: 18px;
+}
+
+/* Segunda imagem */
+.container-info-terceiro-box-marketing-segunda-pagina {
+    display: flex;
+    align-items: end;
+}
